@@ -133,7 +133,7 @@ h1 {font-size:1.5em;margin-bottom:55px;}
     <Navbar style="background-color: steelblue;">
       <template #logo>
         <div class="flex items-center">
-            <Avatar status="online" status-position="top-left" rounded img="public/img/three.jpg" class="mr-2.5" />
+            <Avatar status="online" status-position="top-left" rounded img="img/three.jpg" class="mr-2.5" />
           Al-farizy M G
         </div>
       </template>
@@ -151,7 +151,7 @@ h1 {font-size:1.5em;margin-bottom:55px;}
       </template>
     </Navbar>
    
-<section class="bg-center bg-no-repeat bg-[url('public/img/three.jpg')] bg-gray-700 bg-blend-multiply bg-cover my-5">
+<section class="bg-center bg-no-repeat bg-[url('img/three.jpg')] bg-gray-700 bg-blend-multiply bg-cover my-5">
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Kau mengenalku, maka kau membutuhkanku.</h1>
         <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Violet Evergarden is the best</p>
@@ -166,7 +166,7 @@ h1 {font-size:1.5em;margin-bottom:55px;}
 <Progress progress="100" class="my-5" style="margin: 5px;"></Progress>
 
 <div class="flex" style="margin: 20px; background-color: skyblue;" id="identitas">
-    <the-card variant="image" img-src="public/img/three.jpg" img-alt="Desk" style="background-color: steelblue;">
+    <the-card variant="image" img-src="img/three.jpg" img-alt="Desk" style="background-color: steelblue;">
     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">IDENTITAS</h5>
     <Toast :type="'success'" style="background-color: skyblue; color: black;" class="my-3">
     Al-farizy Mourinho Galindra
